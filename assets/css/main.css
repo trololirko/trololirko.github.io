@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/fonts/Inter-VariableFont.ttf') format('ttf');
+}
+
+*,
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 8%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.infobox {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 100%;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.band-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.band-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#band-banner {
+  width: 95%;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#band-picture {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center; /* horizontal zentrieren */
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.infobox .name {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+
+.infobox .location {
+  color: hsl(75, 94%, 57%);
+  font-weight: bold;
+  text-align: center;
+}
+
+.infobox .description {
+  color: hsl(0, 0%, 80%);
+  text-align: center;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Setzt die Breite auf eine fixe Breite */
+  padding: 0.5rem;
+}
+
+.button-container button {
+  background-color: hsl(0, 0%, 35%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  width: 20rem;
+}
